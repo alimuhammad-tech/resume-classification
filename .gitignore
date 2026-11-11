@@ -1,0 +1,28 @@
+# IDE and agent settings
+.agents/
+.claude/
+.vscode/
+.idea/
+
+# Virtual Environment
+
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit config / cache
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,165 @@
+{
+  "model_name": "Logistic Regression + TF-IDF",
+  "trained_at": "2026-11-11 19:28:56",
+  "total_samples": 120,
+  "train_samples": 90,
+  "test_samples": 30,
+  "accuracy": 0.9667,
+  "categories": [
+    "Cybersecurity & Network Engineering",
+    "Data Engineering & Big Data",
+    "Data Science & Machine Learning",
+    "DevOps & Cloud Engineering",
+    "Full Stack Web Development",
+    "Mobile Application Development",
+    "Quality Assurance & Testing",
+    "UI/UX Design & Frontend"
+  ],
+  "vocabulary_size": 1500,
+  "classification_report": {
+    "Cybersecurity & Network Engineering": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Data Engineering & Big Data": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "Data Science & Machine Learning": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "DevOps & Cloud Engineering": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Full Stack Web Development": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Mobile Application Development": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 3.0
+    },
+    "Quality Assurance & Testing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "UI/UX Design & Frontend": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "accuracy": 0.9666666666666667,
+    "macro avg": {
+      "precision": 0.96875,
+      "recall": 0.96875,
+      "f1-score": 0.9642857142857143,
+      "support": 30.0
+    },
+    "weighted avg": {
+      "precision": 0.975,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9666666666666667,
+      "support": 30.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "disclaimer": "Benchmark educational dataset. Does not represent production accuracy across uncurated resumes."
+}
